@@ -1,19 +1,18 @@
-//menu responsive
-var btnMenuOpen=document.getElementById("btn-menu-open");
-var btnMenuClose=document.getElementById("btn-menu-close");
-var munubar=document.getElementById("menu-bar");
+// MENU RESPONSIVE
+var btnMenuOpen = document.getElementById('btnMenuOpen');
+var btnMenuClose = document.getElementById('btnMenuClose');
+var menubar = document.getElementById('menubar');
 
-btnMenuOpen.addEventListener("click",function(){
-    munubar.classList.add("active");
+btnMenuOpen.addEventListener('click', function() {
+    menubar.classList.add('active');
 });
 
+btnMenuClose.addEventListener('click', function() {
+    menubar.classList.remove('active');
+});
 
-btnMenuClose.addEventListener("click",function() {
-    munubar.classList.remove("active");
-})
-
-var enlaces=document.getElementById("enlaces");
-enlaces.addEventListener("click",function() {
-    menubar.style.trasitionDelay="0.5s";
-    munubar.classList.remove("active");
-})
+var enlaces = document.getElementById('enlaces');
+enlaces.addEventListener('click', function() {
+    menubar.style.transitionDelay = '0.5s';
+    menubar.classList.remove('active');
+});   
