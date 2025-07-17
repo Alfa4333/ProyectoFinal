@@ -244,8 +244,30 @@
      padding: 0 20px;
 }
 
+#equipo{
+     height: 100vh;
+     display: flex;
+
+}
+
+.persona{
+     flex-grow: 1;
+     overflow: hidden;
+     position: relative;
+     transition: all 0.5s;
+
+}
 
 
+.persona img{
+    height: 100%;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%)
+    
+
+}
 
 
 
