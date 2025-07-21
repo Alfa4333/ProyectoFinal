@@ -412,26 +412,46 @@
 }
 
 
-
-
-
-
-
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 850px) {
-
-     /* SECCCION SERVICIOS*/
-     .servicios-container{
-          margin-top: 50px;
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-areas:
-               "ingredientes  rapidez"
-               "calidad       delivery";
-     }
-
-     .imagen-central{
-          display: none;
-     }
+#conttacto{
+     height: 100vh;
+     padding: 60px;
+     position: relative;
 }
+
+#formulario{
+
+
+
+}
+
+.two-files{
+     display: flex;
+     justify-content: space-between;
+
+}
+
+.input-text, .input-mail, .textarea{
+     border:  1px saolid white;
+     color: var(--color-texto);
+     background: var(--color-background);
+
+
+     outline: none;
+     padding: 15px 60px;
+     height: 45px;
+
+     font-size: 16px;
+     margin-bottom: 20px;
+     transition: all0.5s;
+
+}
+
+
+.textarea{
+
+width: 100%;
+height: 150px
+}
+
+     
 
